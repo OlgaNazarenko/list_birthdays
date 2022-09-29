@@ -106,7 +106,7 @@ def get_birthdays_per_week(users):
             print(f"The next week list of birthdays is: {next_week_bd_name} {next_week_bd_date}")
 
 
-        return get_birthdays_per_week(users)
+        return get_birthdays_per_week
 
 if __name__ == "__main__":
-    print(get_birthdays_per_week)
+    print((get_birthdays_per_week(users))
