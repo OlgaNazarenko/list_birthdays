@@ -109,4 +109,4 @@ def get_birthdays_per_week(users):
         return get_birthdays_per_week
 
 if __name__ == "__main__":
-    print((get_birthdays_per_week(users))
+    print(get_birthdays_per_week(users))
